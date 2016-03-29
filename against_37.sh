@@ -19,5 +19,6 @@ do
     -H 'Referer: http://zqyj.chinalaw.gov.cn/draftDetail?listType=2&DraftID=1011&PageIndex=8' \
     -H 'DNT: 1' \
     --data '_ZVING_METHOD=SupportOppose.voteOppose&_ZVING_URL=%252FdraftDetail&_ZVING_DATA=%7B%22ID%22%3A%2245114%22%7D&_ZVING_DATA_FORMAT=json' \
-    --compressed 
+    --compressed
+  echo $i;
 done
